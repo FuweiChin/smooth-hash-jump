@@ -2,7 +2,7 @@
 Jumping to target element smoothly.
 
 ## Why smooth-hash-jump?
-If you have lots of internal hash links in page, let's say documentation page, you may want to make the hash jump more friendly, e.g. adding transitions, smooth-hash-jump just do it, it adds a transition with smooth scrolling.
+If you have lots of internal hash links in page, let's say documentation page, you may want to make the hash jump more friendly, e.g. adding transitions, smooth-hash-jump just does it, it adds a transition with smooth scrolling.
 
 ## Features
 1. Supports various form of links(e.g. "#target-id", "/path/to/page.html#target-id" or "http://example.com/path/to/page.html#target")
