@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<title>jQuery smooth-hash-jump Example</title>
+</head>
+<body>
+	<h1>jQuery smooth-hash-jump Example</h1>
+	<section id="sec-1">
+		<h3>Section 1</h3>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	</section>
+	<section id="sec-tiy">
+		<h3>Try it yourself</h3>
+		<p>Click links below to see effects</p>
+		<dl>
+			<dt><a href="#sec-1">Link to Section 1</a></dt>
+			<dd>target element is located above; will scroll up</dd>
+			<dt><a href="#sec-2">Link to Section 2</a></dt>
+			<dd>target element is located below; will scroll down</dd>
+			<dt><a href="#sec-3">Link to Section 3</a></dt>
+			<dd>target element is hidden; will follow default behavior(may not scroll)</dd>
+			<dt><a href="#">Link to Section 4</a></dt>
+			<dd>target id is empty; will scroll to top, no matter target exists or not</dd>
+			<dt><a href="#non-exist">Link to non-exist target</a></dt>
+			<dd>target element does not exist; will follow default behavior(may not scroll)</dd>
+		</dl>
+		<p>Donec quis felis libero. Fusce sit amet pellentesque quam. Integer quis volutpat dui. Sed dictum viverra dictum. Nullam placerat et felis ut varius. Curabitur mollis vehicula commodo. Suspendisse viverra sit amet nulla sit amet malesuada.</p>
+	</section>
+	<section id="sec-2">
+		<h3>Section 2</h3>
+		<p>Suspendisse potenti. Nunc commodo vel elit vel malesuada. Nulla non ante nec arcu malesuada congue. In ut condimentum nulla. Mauris suscipit est sit amet metus rhoncus, eget porttitor mauris convallis. Nulla sit amet cursus mi, et tincidunt dolor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Fusce molestie felis at justo sollicitudin, non condimentum orci pellentesque. Quisque in ante at mauris porttitor ornare nec et velit. Aliquam mi orci, volutpat sit amet fringilla sed, mollis nec lorem. Nunc sit amet convallis turpis, eu auctor dui. Etiam auctor mi in lorem faucibus, vel feugiat libero tempus. Nulla facilisi. Proin facilisis libero nisl, eu mollis est ullamcorper in. Nam ullamcorper mollis odio, eu vehicula magna ornare vitae. Mauris nec pharetra augue.</p>
+	</section>
+	<section id="sec-3" style="display:none;">
+		<h3>Section 3</h3>
+		<p>Aliquam interdum, augue ullamcorper posuere consequat, dolor libero vehicula tellus, et dapibus orci ipsum vel leo. Maecenas molestie fringilla magna mollis luctus. Donec ultricies eleifend feugiat. Curabitur quis venenatis metus, tincidunt vestibulum augue. Integer non mollis mauris. Aenean bibendum consectetur varius. Duis eget odio quis magna tristique tristique ac vitae neque. Nulla facilisi. Praesent eu facilisis ipsum, eu convallis nisl. Pellentesque congue tempor massa at aliquam.</p>
+	</section>
+	<p><i>Section 3 is hidden</i></p>
+	<section id="">
+		<h3>Section 4</h3>
+		<p>Ut pulvinar ex at ante dictum, vitae iaculis dui pretium. Suspendisse rhoncus condimentum tortor ac mollis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam vulputate tristique purus quis bibendum. Donec feugiat mattis sodales. Suspendisse eu auctor ligula. Donec quis justo odio. Praesent sed suscipit est. Nulla posuere nisl ac placerat vestibulum. Integer vulputate, sapien non luctus ultrices, nibh enim ullamcorper lorem, ut semper ligula tellus quis turpis. Etiam interdum lectus ac auctor rhoncus. Sed nulla nulla, ullamcorper pulvinar nisl vitae, varius dapibus mi. Sed augue nulla, efficitur in consectetur et, hendrerit ut purus. Aenean laoreet eros a leo gravida tempor. Mauris at mauris mauris.</p>
+	</section>
+	<div style="height:1000px;"></div>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="smooth-hash-jump.js"></script>
+</body>
+</html>
